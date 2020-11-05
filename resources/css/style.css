@@ -1,0 +1,249 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: black;
+  line-height: 1.3;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  font-family: 'Neuton', serif;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.head .logo {
+  padding-left: 2rem;
+}
+
+.head .logo p {
+  color: MediumAquamarine;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation .fas,
+.navigation .far {
+  margin-right: 0.4rem;
+}
+
+.navigation ul li {
+  margin: 0 1.5rem;
+  padding: 1rem;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.active, nav ul li:hover {
+  background-color: MediumAquamarine;
+  border-radius: 3px;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu1 {
+  display: none;
+}
+
+nav ul li:hover .sub-menu {
+  position: absolute;
+  display: block;
+  background-color: MediumAquamarine;
+  margin-left: -1rem;
+  margin-top: 1rem;
+}
+
+.last:hover .sub-menu1 {
+  position: absolute;
+  display: block;
+  background-color: MediumAquamarine;
+  margin-left: 100px;
+  margin-top: -45px;
+}
+
+nav ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+nav ul li:hover .sub-menu ul li {
+  width: 100px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+}
+
+nav ul li:hover .sub-menu ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li:hover .sub-menu ul li a:hover {
+  color: firebrick;
+  text-decoration: underline;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+.content .large {
+  width: 630px;
+  margin-right: 2rem;
+}
+
+.content .medium {
+  width: 300px;
+  margin-right: 2rem;
+}
+
+.content .small {
+  width: 240px;
+}
+
+.content {
+  position: relative;
+  top: 4rem;
+}
+
+.main-story .image-content {
+  background-image: url("../img/img-story-main.png");
+  font-size: 40px;
+  width: 630px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.image-content {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.main-story .text-content .narrative {
+  margin-top: 1rem;
+}
+
+.stories {
+  margin-top: 1rem;
+}
+
+.stories .story {
+  margin-right: 1rem;
+}
+
+.story h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.stories .story p {
+  margin-bottom: 1rem;
+}
+
+.fall-season {
+  background-image: url("../img/img-story-2.png");
+}
+
+.fall-season span {
+  color: black;
+}
+
+.cameraman {
+  background-image: url("../img/img-story-3.png");
+}
+
+.cat-ceo {
+  background-image: url("../img/img-story-1.png");
+  margin: 1rem 0;
+}
+
+.news-bites h3 {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bites {
+  background-color: WhiteSmoke;
+}
+
+.news-bites .bites p {
+  font-size: 12px;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
+.news-bites .bites p:hover {
+  background-color: cadetblue;
+}
+
+.news-bites .bites p:active {
+  background-color: #ffa500;
+}
+
+.news-bites .bites a {
+  text-decoration: none;
+  color: DimGray;
+}
+
+img.cookie {
+    height: 240px;
+  }
+
+footer {
+  position: relative;
+  top: 6rem;
+  width: 100%;
+  height: 6rem;
+  background-color: mediumaquamarine;
+  font-size: 12px;
+  margin: auto;
+}
